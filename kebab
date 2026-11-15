@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <title>Kebab United | Oficjalna strona</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+    header {
+      background: #202020;
+      padding: 25px 15px;
+      text-align: center;
+      border-bottom: 3px solid #e5b323;
+    }
+    header h1 { margin: 0; font-size: 34px; }
+    header p { color: #e5b323; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px;
+      background: #292929;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 9px 12px;
+      border-radius: 6px;
+    }
+    nav a:hover { background: #e5b323; color: #111; }
+    main {
+      max-width: 950px;
+      margin: 35px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background: #242424;
+      border: 1px solid #e5b323;
+      border-radius: 14px;
+      padding: 45px 20px;
+    }
+    .hero h2 { font-size: 32px; }
+    .hero p { color: #ddd; line-height: 1.6; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚽ KEBAB UNITED</h1>
+    <p>JEDNA DRUŻYNA. JEDEN CEL.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Główna</a>
+    <a href="kadra.html">Kadra</a>
+    <a href="aktualnosci.html">Aktualności</a>
+    <a href="terminarz.html">Terminarz</a>
+    <a href="wyniki.html">Wyniki</a>
+    <a href="tabela.html">Tabela</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="filmy.html">Filmy</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="login.html">Panel drużyny</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Witaj na stronie Kebab United!</h2>
+      <p>Oficjalna strona naszej drużyny piłkarskiej.</p>
+      <p>Znajdziesz tutaj informacje o zawodnikach,
+      treningach, meczach i życiu drużyny.</p>
+      <h3>🔥 RAZEM TWORZYMY KEBAB UNITED 🔥</h3>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Kebab United
+  </footer>
+</body>
+</html>
